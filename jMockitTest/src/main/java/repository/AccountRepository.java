@@ -48,6 +48,6 @@ public class AccountRepository {
 
     public double update(int id, double newAmount) {
         //TO DO
-        return 0;
+        return 0.0;
     }
 }
