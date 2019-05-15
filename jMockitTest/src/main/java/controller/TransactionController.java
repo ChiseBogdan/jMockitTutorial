@@ -5,6 +5,8 @@ import domain.Person;
 import repository.AccountRepository;
 import repository.PersonRepository;
 
+import java.util.Date;
+
 public class TransactionController {
 
     private AccountRepository accountRepository = new AccountRepository();
@@ -33,7 +35,8 @@ public class TransactionController {
 
     }
 
-    public Person findPerson(String CNP){
+    public Person getOnePearson(String CNP){
         return personRepository.findOne(CNP);
+
     }
 }
