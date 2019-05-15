@@ -15,10 +15,18 @@ public class TransactionController {
         this.personRepository = personRepository;
     }
 
-    public void withdrawMoney(double amount, String CNP, int accountId){
+    public boolean withdrawMoney(double amount, String CNP, int accountId) throws NotEnoughMoneyException {
 
         Person person = personRepository.findOne(CNP);
         Account account = accountRepository.findAccountOfPerson(CNP, accountId);
+
+        if(account.getAmount() < amount){
+            throw new NotEnoughMoneyException("Not enough money in your account");
+        }
+
+        double newAmount = account.getAmount() - amount;
+
+        return accountRepository.update(account.getId(), newAmount);
 
     }
 }
