@@ -7,15 +7,12 @@ import repository.PersonRepository;
 
 public class TransactionController {
 
-    private AccountRepository accountRepository;
-    private PersonRepository personRepository;
+    private PersonRepository personRepository = new PersonRepository();
+    private AccountRepository accountRepository = new AccountRepository();
 
-    public TransactionController(AccountRepository accountRepository, PersonRepository personRepository){
-        this.accountRepository = accountRepository;
-        this.personRepository = personRepository;
-    }
+    public TransactionController(){}
 
-    public boolean withdrawMoney(double amount, String CNP, int accountId) throws NotEnoughMoneyException {
+    public double withdrawMoney(double amount, String CNP, int accountId) throws NotEnoughMoneyException, TheftException {
 
         Person person = personRepository.findOne(CNP);
         Account account = accountRepository.findAccountOfPerson(CNP, accountId);
@@ -26,7 +23,13 @@ public class TransactionController {
 
         double newAmount = account.getAmount() - amount;
 
-        return accountRepository.update(account.getId(), newAmount);
+        double newAmountFromDatabase = accountRepository.update(accountId, newAmount);
+
+        if(newAmount != newAmountFromDatabase){
+            throw new TheftException("Amounts are not the same");
+        }
+
+        return newAmount;
 
     }
 }
