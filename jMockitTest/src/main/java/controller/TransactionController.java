@@ -32,4 +32,9 @@ public class TransactionController {
         return newAmount;
 
     }
+
+    public Person getOnePearson(String CNP){
+        return personRepository.findOne(CNP);
+
+    }
 }
