@@ -46,8 +46,8 @@ public class AccountRepository {
         return null;
     }
 
-    public boolean update(int id, double newAmount) {
+    public double update(int id, double newAmount) {
         //TO DO
-        return true;
+        return 0.0;
     }
 }
