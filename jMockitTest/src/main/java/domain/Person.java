@@ -1,3 +1,5 @@
+package domain;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,6 @@ public class Person {
     private String CNP;
     private String name;
     private int age;
-    private List<Account> accounts = new ArrayList<Account>();
 
     public Person(String CNP, String name, int age) {
         this.CNP = CNP;
