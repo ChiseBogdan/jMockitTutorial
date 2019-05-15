@@ -9,7 +9,7 @@ public class Main {
         AccountRepository accountRepository = new AccountRepository();
         PersonRepository personRepository = new PersonRepository();
 
-        TransactionController transactionController = new TransactionController(accountRepository, personRepository);
+        TransactionController transactionController = new TransactionController();
 
 
 
