@@ -1,10 +1,13 @@
 import controller.NotEnoughMoneyException;
+import controller.TheftException;
 import controller.TransactionController;
 import domain.Account;
 import domain.Person;
 import mockit.*;
 import mockit.integration.junit4.JMockit;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import repository.AccountRepository;
 import repository.PersonRepository;
@@ -13,17 +16,20 @@ import repository.PersonRepository;
 @RunWith(JMockit.class)
 public class MockUpJMockit {
 
+    @Rule
+    public final ExpectedException thrown = ExpectedException.none();
 
     @Mocked
     PersonRepository personRepository;
     @Mocked
     AccountRepository accountRepository;
+
     @Tested
     TransactionController transactionController;
 
 
     @Test
-    public void withDrawAmountTestOK(){
+    public void withDrawAmountTestOK() throws TheftException, NotEnoughMoneyException {
         //MockUp for PersonRepository
         new MockUp<PersonRepository>() {
 
@@ -42,21 +48,23 @@ public class MockUpJMockit {
             public Account findAccountOfPerson(String CNP, int accountId){
                 return new Account(100,1000);
             }
+
+            @Mock
+            public double update(int id, double newAmount) {
+                return 750.0;
+            }
         };
 
         transactionController = new TransactionController();
 
-        try{
-            double newValue = transactionController.withdrawMoney(250,"197072605520",100);
-            assert(newValue == 750);
-        } catch (NotEnoughMoneyException e) {
-            assert(false);
-        }
+        double newValue = transactionController.withdrawMoney(250,"197072605520",100);
+        assert(newValue == 750);
 
     }
+    
 
     @Test
-    public void withDrawAmountTestBAD(){
+    public void withDrawAmountTestBAD() throws TheftException, NotEnoughMoneyException {
         //MockUp for PersonRepository
         new MockUp<PersonRepository>() {
 
@@ -80,10 +88,9 @@ public class MockUpJMockit {
 
         transactionController = new TransactionController();
 
-        try{
-            double newValue = transactionController.withdrawMoney(1050,"197072605520",100);
-        } catch (NotEnoughMoneyException e) {
-            assert(true);
-        }
+        thrown.expect(NotEnoughMoneyException.class);
+
+        transactionController.withdrawMoney(1050,"197072605520",100);
+
     }
 }
