@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9bb1726-f8c1-439d-8b48-a13c125a3b37" name="Default Changelist" comment="">
+    <list default="true" id="d9bb1726-f8c1-439d-8b48-a13c125a3b37" name="Default Changelist" comment="init v1">
+      <change afterPath="$PROJECT_DIR$/../database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controller/TransactionControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/NotEnoughMoneyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/TheftException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/TransactionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/domain/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/repository/AccountRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/repository/ConnectionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/repository/PersonRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/abstractClass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/annotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/controller/NotEnoughMoneyException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/controller/TheftException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/controller/TransactionController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/coverage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/coverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/domain/Account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/domain/Person.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/enum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/exception.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/package.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/repository/AccountRepository.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/repository/ConnectionFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/my-coverage-report/repository/PersonRepository.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/JMockitTest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MockUpJMockit$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MockUpJMockit$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MockUpJMockit$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MockUpJMockit$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MockUpJMockit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorialJMockit.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vvss_presentation.odp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/TransactionController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,15 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Person.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/PersonRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="60">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="90">
               <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/AccountRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            <state relative-caret-position="407">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +109,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/TransactionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/controller/TransactionControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +170,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#240#241#0" expanded="true" />
@@ -144,6 +185,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -173,6 +215,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ExpectationsJMockit.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/TransactionController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controller/TransactionControllerTest.java" />
       </list>
     </option>
   </component>
@@ -189,6 +233,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,23 +275,55 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JMockitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jMockitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JMockitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jMockitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JMockitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jMockitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557941114090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558383071222" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller" />
+      <recent name="domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="controller" />
     </key>
@@ -263,14 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JMockitTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TransactionControllerTest.testWithdraw">
     <configuration name="ExpectationsJMockit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JMockitTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -295,6 +365,32 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExpectationsJMockit" />
       <option name="METHOD_NAME" value="withdrawAmountTestWithException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockUpJMockit.withDrawAmountTestOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JMockitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MockUpJMockit" />
+      <option name="METHOD_NAME" value="withDrawAmountTestOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionControllerTest.testWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JMockitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.TransactionControllerTest" />
+      <option name="METHOD_NAME" value="testWithdraw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -364,11 +460,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExpectationsJMockit.withdrawAmountTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ExpectationsJMockit" />
+        <item itemvalue="JUnit.TransactionControllerTest.testWithdraw" />
+        <item itemvalue="JUnit.MockUpJMockit.withDrawAmountTestOK" />
         <item itemvalue="JUnit.ExpectationsJMockit.withdrawAmountTestWithException" />
         <item itemvalue="JUnit.ExpectationsJMockit.withdrawAmountTest" />
+        <item itemvalue="JUnit.ExpectationsJMockit" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +479,9 @@
       <option name="presentableId" value="Default" />
       <updated>1557926213500</updated>
       <workItem from="1557926216376" duration="3724000" />
-      <workItem from="1557930779254" duration="9537000" />
+      <workItem from="1557930779254" duration="12337000" />
+      <workItem from="1558372204562" duration="93000" />
+      <workItem from="1558372315799" duration="5140000" />
     </task>
     <task id="LOCAL-00001" summary="initial repo">
       <created>1557931874897</created>
@@ -420,28 +518,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557941068258</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init v1">
+      <created>1557941175518</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557941175518</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExpectationsJMockit - 2019.05.15 at 19h 49m 20s.xml">
-      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpectationsJMockit - 2019.05.15 at 19h 49m 46s.xml">
-      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpectationsJMockit - 2019.05.15 at 19h 50m 35s.xml">
-      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpectationsJMockit - 2019.05.15 at 19h 53m 33s.xml">
-      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpectationsJMockit - 2019.05.15 at 20h 00m 58s.xml">
-      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpectationsJMockit - 2019.05.15 at 20h 03m 13s.xml">
-      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExpectationsJMockit - 2019.05.15 at 20h 04m 07s.xml">
       <configuration name="ExpectationsJMockit" configurationId="JUnit" />
     </history-entry>
@@ -454,15 +541,33 @@
     <history-entry file="ExpectationsJMockit - 2019.05.15 at 20h 19m 03s.xml">
       <configuration name="ExpectationsJMockit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExpectationsJMockit - 2019.05.15 at 21h 10m 11s.xml">
+      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpectationsJMockit - 2019.05.15 at 21h 12m 07s.xml">
+      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpectationsJMockit_withdrawAmountTest - 2019.05.20 at 20h 30m 19s.xml">
+      <configuration name="ExpectationsJMockit.withdrawAmountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpectationsJMockit_withdrawAmountTest - 2019.05.20 at 20h 33m 54s.xml">
+      <configuration name="ExpectationsJMockit.withdrawAmountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpectationsJMockit - 2019.05.20 at 20h 35m 51s.xml">
+      <configuration name="ExpectationsJMockit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockUpJMockit_withDrawAmountTestOK - 2019.05.20 at 20h 36m 48s.xml">
+      <configuration name="MockUpJMockit.withDrawAmountTestOK" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13261000" />
+    <option name="totallyTimeSpent" value="21294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="32" width="1552" height="868" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24037185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2124834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -505,7 +610,8 @@
     <MESSAGE value="v0.1" />
     <MESSAGE value="TheftException &#10;update returns double" />
     <MESSAGE value="expectations done" />
-    <option name="LAST_COMMIT_MESSAGE" value="expectations done" />
+    <MESSAGE value="init v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,31 +622,92 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/TransactionController.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/TransactionController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/TransactionController.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExpectationsFindOne.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExpectationsFindOne.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.8/jmockit-1.8.jar!/mockit/MockUp.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MockUpJMockit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="e#865#1097#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.8/jmockit-1.8.jar!/mockit/Invocations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.8/jmockit-1.8.jar!/mockit/Expectations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ExpectationsJMockit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="677">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AccountRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/PersonRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -577,17 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -598,20 +754,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/PersonRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="407">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -620,27 +780,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/TransactionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/TransactionControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="390">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6 (1) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JMockitTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
